@@ -1,0 +1,68 @@
+{
+  "name": "nicholsoncap",
+  "version": "1.0.0",
+  "description": "TBD",
+  "author": "TBD",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && yarn start:prod || yarn start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "yarn kill && concurrently \"nodemon\" \"yarn client\"",
+    "server": "yarn kill && nodemon",
+    "client": "cd client && yarn start",
+    "install": "cd client && yarn install",
+    "build": "cd client && yarn build",
+    "heroku-postbuild": "yarn build",
+    "kill": "kill-port 3001",
+    "lint": "eslint --quiet .",
+    "lint:fix": "eslint --fix .",
+    "tests": "yarn kill && NODE_ENV=test nyc --reporter=html --reporter=text mocha tests/**/*.spec.js --exit",
+    "test:coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "nodemonConfig": {
+    "events": {
+      "restart": "yarn kill",
+      "crash": "yarn kill"
+    },
+    "delay": "3000",
+    "ignore": [
+      "client/*"
+    ]
+  },
+  "nyc": {
+    "exclude": [
+      "client"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "concurrently": "^4.1.1",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "kill-port": "^1.5.1",
+    "mjml": "^4.4.1",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "axios": "^0.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "path": "^0.12.7",
+    "react-bootstrap": "^1.0.0-beta.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleyjd19/nicholsoncap.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/bradleyjd19/nicholsoncap/issues"
+  },
+  "homepage": "https://github.com/bradleyjd19/nicholsoncap#readme"
+}

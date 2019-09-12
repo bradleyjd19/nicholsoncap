@@ -1,0 +1,20 @@
+#navbar{
+  background-color: #577284;
+}
+
+#logo {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1rem;
+}
+
+#toggle {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#navlink {
+  color: white;
+  font-size: 1.3rem;
+  padding: 0 2rem;
+}

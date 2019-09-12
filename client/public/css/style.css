@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#navBar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-size: 1.125rem;
+  height: 3.75rem;
+}
+
+#jbLogo {
+  margin-left: 1.125rem;
+}
+
+#about,
+#projects,
+#contact {
+  margin-right: 2.5rem;  
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: gray;
+}
+
+#main-content {
+  position: relative;
+  top: 3.75rem;
+}
+
+#intro-block,
+#content-block {
+  font-family: 'Montserrat', sans-serif;
+  margin: 5rem 0 0 0;
+  height: 415px;
+  justify-content: space-around;
+}
+
+#content-block {
+  margin-top: 1.875rem;
+}
+
+#page1,
+#page2,
+#page3,
+#page4 {
+  padding-top: 1.875rem;
+}
+
+#name-block {
+  font-size: 1.125rem;
+}
+
+#repeat {
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  font-weight: bold;
+}
+
+#title {
+  font-size: 2.8125rem;
+  line-height: 2.8125rem;
+  margin: 0.625rem 0 0.9375rem 0;
+  font-weight: bold;
+}
+
+#background {
+  margin: 0 auto;
+}
+
+#about-header,
+#project-header,
+#contact-header {
+  font-size: 2rem;
+  margin-top: 3.75rem;
+  border: 1px solid black;
+}
+
+#form-container {
+  width: 80%;
+}
+
+#footer-icons {
+  justify-content: center;
+  background-color: black;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 60px;
+}
+
+#github,
+#linkedin,
+#resume {
+  margin: 0 20px;
+  font-size: 30px;
+}
