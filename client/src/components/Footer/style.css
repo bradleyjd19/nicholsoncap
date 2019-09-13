@@ -1,0 +1,24 @@
+footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+  color: #577284;
+  text-decoration: none;
+}
+
+#footer-links {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  font-size: 0.7rem;
+}
+
+#address {
+  margin: 0.5rem 0;
+}
