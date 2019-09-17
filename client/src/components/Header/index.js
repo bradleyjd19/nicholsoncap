@@ -14,7 +14,7 @@ function Header() {
           id="logo"
           src="../../images/nclogo.png"
           alt="Nicholson Capital Management" />
-        <span id="brand-title">Nicholson Capital Management</span>
+        {/* <span id="brand-title">Nicholson Capital Management</span> */}
       </Navbar.Brand>
       <Navbar.Toggle id="toggle" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

@@ -2,6 +2,35 @@
   margin-top: 6rem;
 }
 
+#title-image {
+  position: relative;
+  text-align: center;
+  color: rgb(239, 213, 27);
+  margin-bottom: 2rem;
+}
+
+#center-brand {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logo-main {
+  margin-right: 2rem;
+}
+
+#name-main {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#tagline-main {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
 #home-header {
   font-size: 1.5rem;
   font-weight: bold;
@@ -9,4 +38,10 @@
 
 #info-block {
   padding-left: 6rem;
+}
+
+#contact-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
 }

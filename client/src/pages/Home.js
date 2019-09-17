@@ -7,12 +7,21 @@ class Home extends Component {
       <div>
         <div className="container-fluid" id="contentContainer">
           <div className="row">
-            <div className="col-12 p-0 text-center" id="title-image">
+            <div className="col-12 p-0" id="title-image">
               <img
                 id="kcimg"
                 style={{ width: "80vw" }}
                 src="../../images/downtownkcdark.jpg"
                 alt="Downtown KC" />
+              <div id="center-brand">
+                <img
+                  id="logo-main"
+                  style={{ width: "5rem", height: "5rem" }}
+                  src="../../images/nclogo.png"
+                  alt="Nicholson Capital Management" />
+                <span id="name-main">Nicholson Capital Management</span>
+                <div id="tagline-main">Investment Managers and Financial Consultants</div>
+              </div>
             </div>
           </div>
           <div className="row">
