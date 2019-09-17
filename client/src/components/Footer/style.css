@@ -4,11 +4,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-#container-footer {
-  margin: 0 4rem;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 a:hover {
@@ -25,12 +21,4 @@ a:hover {
 
 #address {
   margin: 0.6rem 0;
-}
-
-@media only screen and (max-width: 767px) {
-
-  #container-footer {
-    margin: 0 2rem;
-  }
-  
 }

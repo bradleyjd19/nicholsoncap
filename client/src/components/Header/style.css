@@ -1,26 +1,27 @@
 #navbar{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #logo {
   float: left;
-  height: 3rem;
-  width: 3rem;
+  height: 2rem;
+  width: 2rem;
   margin: 0 1rem;
 }
 
 #brand-title {
   display: flex;
-  height: 3rem;
+  height: 2rem;
   align-items: center;
-  color: rgb(242, 183, 57);
+  color: rgb(239, 213, 27);
   font-size: 1.3rem;
   font-weight: bold;
 }
 
 #toggle {
   background-color: white;
-  border: 1px solid rgb(242, 183, 57);
+  border: 2px solid rgb(239, 213, 27);
+  border-radius: 8px;
 }
 
 .dropdown-toggle::after {
@@ -29,7 +30,7 @@
 
 #navlink {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0 2rem;
 }
 
@@ -38,5 +39,5 @@
   #brand-title {
     display: none;
   }
-  
+
 }
