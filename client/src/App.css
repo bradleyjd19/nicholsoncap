@@ -6,7 +6,7 @@
   position: relative;
   text-align: center;
   color: rgb(239, 213, 27);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 #center-brand {
@@ -31,13 +31,22 @@
   font-size: 1.5rem;
 }
 
-#home-header {
-  font-size: 1.5rem;
-  font-weight: bold;
+#info-block {
 }
 
-#info-block {
-  padding-left: 6rem;
+#info-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+#info-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#info-text:last-child {
+  margin-bottom: 5rem;
 }
 
 #contact-header {
