@@ -5,11 +5,10 @@ function Button(props) {
   return (
     <button {...props} 
       className="btn"
+      id="service-button"
       style={{ 
         marginTop: "1rem",
         marginBottom: "1rem",
-        padding: "2rem",
-        width: "100%",
         backgroundColor: "rgb(239, 213, 27)",
         color: "black",
         fontSize: "1.3rem",

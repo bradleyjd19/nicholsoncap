@@ -19,6 +19,8 @@
 
 #logo-main {
   margin-right: 2rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 #name-main {
@@ -29,9 +31,6 @@
 #tagline-main {
   margin-top: 2rem;
   font-size: 1.5rem;
-}
-
-#info-block {
 }
 
 #info-header {
@@ -47,6 +46,11 @@
 
 #info-text:last-child {
   margin-bottom: 5rem;
+}
+
+#service-button {
+  width: 100%;
+  padding: 2rem;
 }
 
 #contact-header {
@@ -76,10 +80,44 @@
   margin-bottom: 3rem;
 }
 
+@media only screen and (max-width: 1300px) {
+
+  #logo-main {
+    margin-bottom: 1rem;
+  }
+  
+  #name-main {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    font-size: 3rem;
+  }
+  
+  #tagline-main {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+}
+
 @media only screen and (max-width: 992px) {
 
   #contentContainer {
     margin-top: 5rem;
+  }
+
+  #info-header,
+  #service-button {
+    text-align: center;
+  }
+
+  #info-block,
+  #service-button {
+    width: 70%;
+  }
+
+  #service-button {
+    padding: 1rem;
   }
 
   #contact-header {
