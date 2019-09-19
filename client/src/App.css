@@ -33,6 +33,11 @@
   font-size: 1.5rem;
 }
 
+#info-block,
+#button-block {
+  padding-left: 8rem;
+}
+
 #info-header {
   font-size: 1.5rem;
   font-weight: bold;
@@ -45,12 +50,15 @@
 }
 
 #info-text:last-child {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 #service-button {
   width: 100%;
-  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  font-size: 1.3rem;
 }
 
 #contact-header {
@@ -98,6 +106,11 @@
     font-size: 1.5rem;
   }
 
+  #service-button {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -111,21 +124,27 @@
     text-align: center;
   }
 
-  #info-block,
-  #service-button {
-    width: 70%;
+  #info-block {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  
+  #button-block {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   #service-button {
-    padding: 1rem;
-  }
+    width: 70%;
+  }  
 
   #contact-header {
     margin-bottom: 2rem;
     padding: 0;
+    line-height: 1.3rem;
   }
 
-  #contact-content {
+  #contact-info {
     text-align: center;
   }
 
