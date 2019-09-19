@@ -50,7 +50,50 @@
 }
 
 #contact-header {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 2rem;
+}
+
+#contact-info {
+  margin-left: 3rem;
+}
+
+#contact-address,
+#contact-city,
+#contact-number,
+#contact-fax {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+}
+
+#contact-address {
+  margin-bottom: 0.5rem;
+}
+
+#contact-fax {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 992px) {
+
+  #contentContainer {
+    margin-top: 5rem;
+  }
+
+  #contact-header {
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+
+  #contact-content {
+    text-align: center;
+  }
+
+  #contact-info {
+    margin-left: 0;
+    margin-bottom: 4rem;
+  }
+
 }
