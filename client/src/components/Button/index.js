@@ -7,8 +7,6 @@ function Button(props) {
       className="btn"
       id="service-button"
       style={{
-        backgroundColor: "rgb(239, 213, 27)",
-        color: "black",
         fontWeight: "bold",
         border: "1px solid black",
         boxShadow: "5px 10px 8px #888888" }}>

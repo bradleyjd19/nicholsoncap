@@ -31,7 +31,13 @@
 #navlink {
   color: white;
   font-size: 1.1rem;
-  padding: 0 2rem;
+  padding: 0.5rem 2rem;
+  transition: 0.3s;
+}
+
+#navlink:hover {
+  background-color: rgb(239, 213, 27);
+  color: black;
 }
 
 @media only screen and (max-width: 1050px) {

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Jennifer D. Nicholson, MBA, CFP",
+    "title": "President",
+    "role": "Chief Investment Officer, Head of the Investment Committee",
+    "image": "./images/JenNic.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Susie Meyer",
+    "title": "Senior Vice President and Portfolio Manager",
+    "role": "Member of the Investment Committee",
+    "image": "./images/SusMey.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Janie Sanders",
+    "title": "Vice President - Operations",
+    "role": "",
+    "image": "./images/JanSan.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Janet Huber",
+    "title": "Account Administrator",
+    "role": "",
+    "image": "./images/JanHub.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cynthia L. Barker",
+    "title": "Administrative Assistant",
+    "role": "",
+    "image": "./images/CynBar.jpg"
+  }
+]
