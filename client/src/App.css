@@ -75,10 +75,43 @@
   color: rgb(239, 213, 27);
 }
 
-#contact-header {
+#team-container {
+  padding-bottom: 5rem;
+  background-color: black;
+}
+
+#firm-block {
+  font-size: 1rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+#firm-header,
+#team-header {
+  font-size: 2rem;
+}
+
+#firm-info {
+  margin-bottom: 1rem;
+  line-height: 1.3rem;
+  font-weight: 500;
+}
+
+#firm-sig {
+  margin-top: 3rem;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+#contact-header,
+#firm-header,
+#team-header {
+  font-weight: bold;
   margin-bottom: 2rem;
+}
+
+#contact-header {
+  font-size: 1.2rem;
 }
 
 #contact-info {
@@ -125,6 +158,10 @@
     font-size: 1rem;
   }
 
+  #firm-block {
+    padding-left: 3rem;
+  }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -136,6 +173,14 @@
   #info-header,
   #service-button {
     text-align: center;
+  }
+
+  #name-main {
+    font-size: 2rem;
+  }
+
+  #tagline-main {
+    font-size: 1.3rem;
   }
 
   #info-block {
@@ -153,6 +198,10 @@
     width: 55%;
   }
 
+  #team-pic {
+    display: none;
+  }
+
   #contact-header {
     margin-bottom: 2rem;
     padding: 0;
@@ -168,4 +217,12 @@
     margin-bottom: 4rem;
   }
 
+}
+
+@media only screen and (max-width: 735px) {
+
+  #logo-main,
+  #tagline-main {
+    display: none;
+  }
 }

@@ -10,17 +10,18 @@ function MemberCard(props) {
           <Card.Img
             variant="top"
             src={props.image}
-            alt={props.name}
+            alt={props.firstName + " " + props.lastName}
             style={{
-              height: "15rem",
-              width: "12rem"
+              width: "100%",
             }}
           />
           <Card.Body>
-            <Card.Title>{props.name}</Card.Title>
+            <Card.Title style={{ fontSize: "1.2rem" }}>
+              {props.firstName + " " + props.lastName}
+            </Card.Title>
             <Card.Text>
-              {props.title}<br />
-              {props.role}
+              {props.title}
+              {/* {props.role} */}
             </Card.Text>
           </Card.Body>
         </Card>
