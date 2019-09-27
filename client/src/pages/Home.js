@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button from "../components/Button";
+import  { Link } from "react-router-dom";
 
 class Home extends Component {
 
@@ -32,9 +33,9 @@ class Home extends Component {
               <p id="info-text">At Nicholson Capital Management, we are committed to our clients in all market environments, with the knowledge that having the right navigator makes all the difference.</p>
             </div>
             <div className="col-lg-5 text-center" id="button-block">
-              <Button>Wealth Management Services</Button>
-              <Button>Retirement Plan Services</Button>
-              <Button>Legacy Services & Financial Consulting</Button>
+              <Link to="/wealth"><Button href="/wealth">Wealth Management Services</Button></Link>
+              <Link to="/retire"><Button>Retirement Plan Services</Button></Link>
+              <Link to="/consult"><Button>Legacy Services & Financial Consulting</Button></Link>
             </div>
           </div>
         </div>
